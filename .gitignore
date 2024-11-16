@@ -9,6 +9,10 @@ dist/
 web-build/
 expo-env.d.ts
 
+expo-push-notification-d7f46-firebase-adminsdk-6rzcj-57686b77d4.json
+
+google-services.json
+
 # Native
 *.orig.*
 *.jks
