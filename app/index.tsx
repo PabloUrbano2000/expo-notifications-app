@@ -1,7 +1,7 @@
-import { ThemedText } from '@/components/ThemedText'
-import { usePushNotifications } from '@/hooks/usePushNotifications'
 import React from 'react'
 import { FlatList, View } from 'react-native'
+import { ThemedText } from '../components/ThemedText'
+import { usePushNotifications } from '../hooks/usePushNotifications'
 
 const PushApp = () => {
   const { expoPushToken, notifications } = usePushNotifications()
@@ -16,7 +16,7 @@ const PushApp = () => {
           fontSize: 25
         }}
       >
-        Notificaciones
+        Notificaciones!!!
       </ThemedText>
       <FlatList
         data={notifications}

@@ -87,8 +87,8 @@ export default function App() {
   const [notification, setNotification] = useState<
     Notifications.Notification | undefined
   >(undefined)
-  const notificationListener = useRef<Notifications.EventSubscription>()
-  const responseListener = useRef<Notifications.EventSubscription>()
+  const notificationListener = useRef<Notifications.Subscription>()
+  const responseListener = useRef<Notifications.Subscription>()
 
   useEffect(() => {
     registerForPushNotificationsAsync()
